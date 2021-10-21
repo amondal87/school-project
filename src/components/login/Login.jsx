@@ -18,11 +18,11 @@ const Login = () => {
                         <form name="login" class="form">
 				<div class="input-control">
 					<label for="email" class="input-label" hidden>Email Address</label>
-					<input type="email" name="email" class="input-field" placeholder="Email Address" />
+					<input type="email" autoComplete="off" name="email" class="input-field" placeholder="Email Address" />
 				</div>
 				<div class="input-control">
 					<label for="password" class="input-label" hidden>Password</label>
-					<input type="password" name="password" class="input-field" placeholder="Password" />
+					<input type="password" autoComplete="off" name="password" class="input-field" placeholder="Password" />
 				</div>
 				<div class="input-control">
 					<a href="#" class="text text-links">Forgot Password</a>
